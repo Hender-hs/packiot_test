@@ -3,16 +3,13 @@
 This API was created with NestJS using TypeScript and TypeORM. Was used SOLID principles and Design Patterns. 
 You can set up any SQL Database you want. It has Authentication in all endpoints.
 
-```http
-GET /tasks
-```
-
-##### Task Routes  
 
 #### API Routes  
 
 <font size="7"> All routes are protected. It requires the access token in the authorization header </font>  
-  
+
+##### Task Routes  
+
 ```http
 GET /tasks  
 ```
