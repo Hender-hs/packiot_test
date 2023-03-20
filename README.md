@@ -7,20 +7,30 @@ You can set up any SQL Database you want. It has Authentication in all endpoints
 GET /tasks
 ```
 
-| Endipoint | Method | Description |
+##### Task Routes  
 
-| `/tasks` | `GET`    | **Required**. Authentication |
+#### API Routes  
 
-| `/tasks/:id` | `GET`     | **Required**. Authentication |
-
-| `/tasks` | `POST`    | **Required**. Authentication |
-
-| `/tasks/:id` | `PUT`     | **Required**. Authentication |
-
-| `/tasks/:id` | `DELETE`  | **Required**. Authentication |
-
-
-
+<font size="7"> All routes are protected. It requires the access token in the authorization header </font>  
+  
+```http
+GET /tasks  
+```
+```http
+GET /tasks/:id  
+```
+```http
+GET /tasks  
+```
+```http
+POST /tasks  
+```
+```http
+PUT /tasks/:id  
+```
+```http
+DELETE /tasks/:id  
+```  
 
 
 ## Responses
@@ -59,5 +69,3 @@ The API can return only the following codes:
 | 400 | `BAD REQUEST` |
 | 404 | `NOT FOUND` |
 | 500 | `INTERNAL SERVER ERROR` |
-
-
