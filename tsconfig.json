@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@/*": ["./src"],
+	  "@AuthModel/*": ["./src/auth/model/*"],
+      "@Authcontroller/*": ["./src/auth/controller/*"],
+      "@AuthService/*": ["./src/auth/service/*"],
+      "@AuthModule/*": ["./src/auth/module/*"],
+	  "@TaskModel/*": ["./src/task/model/*"],
+      "@TaskController/*": ["./src/task/controller/*"],
+      "@TaskService/*": ["./src/task/service/*"],
+      "@TaskModule/*": ["./src/task/module/*"],
+	  "@OrmModel/*": ["./src/orm/model/*"],
+      "@OrmService/*": ["./src/orm/service/*"],
+      "@OrmModule/*": ["./src/orm/module/*"],
+    }
+  }
+}
