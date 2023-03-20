@@ -8,15 +8,15 @@ GET /tasks
 ```
 
 | Endipoint | Method | Description |
-| :--- | :--- | :--- |
+
 | `/tasks` | `GET`    | **Required**. Authentication |
-| :--- | :--- | :--- |
+
 | `/tasks/:id` | `GET`     | **Required**. Authentication |
-| :--- | :--- | :--- |
+
 | `/tasks` | `POST`    | **Required**. Authentication |
-| :--- | :--- | :--- |
+
 | `/tasks/:id` | `PUT`     | **Required**. Authentication |
-| :--- | :--- | :--- |
+
 | `/tasks/:id` | `DELETE`  | **Required**. Authentication |
 
 
